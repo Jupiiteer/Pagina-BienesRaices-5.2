@@ -1,0 +1,19 @@
+{
+  "name": "kevin/bienes-raices-poo",
+  "description": "Creando un proyecto con POO",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Kevin Ruiz",
+      "email": "kruiz@frba.utn.edu.ar"
+    }
+  ],
+  "require": {
+    "intervention/image": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "./classes"
+    }
+  }
+}
